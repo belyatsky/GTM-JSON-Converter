@@ -4,7 +4,6 @@ import pandas as pd
 
 # Load data using Python JSON module.
 # Replace '666.json' with the path where your JSON file located.
-# Make sure you placed your file into 
 with open('666.json','r') as f:
     data = json.loads(f.read())
 
