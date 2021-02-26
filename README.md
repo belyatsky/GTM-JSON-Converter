@@ -4,13 +4,15 @@ This tool parses Google Tag Manager JSON container and converts it to xlsx.
 
 The resulting Excel file has several tabs depending on the contents of the GTM container:
 
-- tag
-- trigger
-- variables
-- builtInVariable
-- folder
+* tag
+* trigger
+* variables
+* builtInVariable
+* folder
+* zone
+* customTemplate
 
 ## Prerequisities:
 
-- Python 3.6+
-- _pandas_ and _openpyxl_ libraries installed
+* Python 3.6+
+* _pandas_ and _openpyxl_ libraries installed
