@@ -7,12 +7,7 @@ import pandas as pd
 with open('666.json','r') as f:
     data = json.loads(f.read())
 
-json_tags = data["containerVersion"]["tag"]
-json_triggers = data["containerVersion"]["trigger"]
-json_variables_custom = data["containerVersion"]["variable"]
-json_variables_builtIn = data["containerVersion"]["builtInVariable"]
-
-elements = ["tag", "trigger", "variable", "builtInVariable", "folder"]
+elements = ["tag", "trigger", "variable", "builtInVariable", "folder", "zone", "customTemplate"]
 tabs = []
 
 for el in elements:
